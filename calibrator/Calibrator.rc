@@ -1,0 +1,270 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Calibrator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Calibrator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Calibrator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Calibrator Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CALIBRATOR_DIALOG DIALOGEX 0, 0, 308, 319
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Calibrator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Выход",IDOK,7,107,74,14
+    PUSHBUTTON      "Загрузить данные",IDC_LOAD_DATA,7,7,74,14
+    PUSHBUTTON      "Калибровать",IDC_CALIBRATE,7,30,74,14
+    LTEXT           "Размер матрицы, мм",IDC_STATIC,101,21,74,8
+    LTEXT           "Размер матрицы, пикс.",IDC_STATIC,101,36,81,8
+    LTEXT           "Ширина",IDC_STATIC,198,7,27,8
+    LTEXT           "Высота",IDC_STATIC,256,7,26,8
+    EDITTEXT        IDC_SIZEX_MM,187,19,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZEY_MM,244,19,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZEX_PIX,187,34,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZEY_PIX,244,34,50,12,ES_AUTOHSCROLL
+    LTEXT           "Предельное число итераций",IDC_STATIC,101,65,97,8
+    LTEXT           "Точность результата, мкм",IDC_STATIC,101,80,91,8
+    LTEXT           "Начальное приближение K1",IDC_STATIC,101,96,96,8
+    LTEXT           "Вес для X0 и Y0",IDC_STATIC,101,112,55,8
+    EDITTEXT        IDC_MAX_ITERATIONS,204,63,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PRECISION,204,78,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_K1_INI,204,94,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WEGHT_X0Y0,204,110,50,12,ES_AUTOHSCROLL
+    LTEXT           "Координаты центра симметрии относительно\r\nгеометрического центра матрицы, мкм",
+                    IDC_STATIC,14,219,165,18
+    LTEXT           "x0",IDC_STATIC,208,210,8,8
+    LTEXT           "y0",IDC_STATIC,265,210,8,8
+    EDITTEXT        IDC_X0,187,221,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y0,244,221,50,12,ES_AUTOHSCROLL
+    LTEXT           "Коэффициенты радиальной дисторсии для\r\nмодели SMAC",
+                    IDC_STATIC,14,252,165,18
+    LTEXT           "K1",IDC_STATIC,207,244,10,8
+    LTEXT           "K2",IDC_STATIC,264,244,10,8
+    EDITTEXT        IDC_K1,187,255,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_K2,244,255,50,12,ES_AUTOHSCROLL
+    LTEXT           "Среднеквадратичное отклонение (СКО), мкм",IDC_STATIC,15,
+                    281,153,8
+    LTEXT           "Модуль максимального отклонения, мкм",IDC_STATIC,16,297,
+                    142,8
+    EDITTEXT        IDC_SQD,187,279,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_ERR,187,295,50,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Создать отчет",IDC_CREATE_REPORT,7,55,74,14
+    PUSHBUTTON      "Откатить",IDC_RESTORE,7,79,74,14
+    LTEXT           "Рассчитывать:",IDC_STATIC,7,140,51,8
+    CONTROL         "Только K1",IDC_K1_ONLY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,154,51,10
+    CONTROL         "K1 и K2",IDC_K1K2_ONLY,"Button",BS_AUTORADIOBUTTON,7,
+                    168,41,10
+    CONTROL         "X0 и Y0",IDC_X0Y0_ONLY,"Button",BS_AUTORADIOBUTTON,7,
+                    182,41,10
+    CONTROL         "K1,  K2,  X0, Y0",IDC_ALL,"Button",BS_AUTORADIOBUTTON,7,
+                    196,67,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CALIBRATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Calibrator MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Calibrator\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Calibrator.EXE\0"
+            VALUE "ProductName", "Calibrator Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Calibrator..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Calibrator.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

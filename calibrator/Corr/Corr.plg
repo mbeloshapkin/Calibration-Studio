@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Corr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Corr.res" /d "_DEBUG" /d "_AFXDLL" "C:\Projects\Calibrator\Corr\Corr.rc"" 
+Creating temporary file "C:\DOCUME~1\已\LOCALS~1\Temp\RSP52.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Corr.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\Calibrator\Corr\ChildView.cpp"
+"C:\Projects\Calibrator\Corr\Corr.cpp"
+"C:\Projects\Calibrator\Corr\MainFrm.cpp"
+"C:\Projects\Calibrator\Corr\Picture.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\已\LOCALS~1\Temp\RSP52.tmp"" 
+Creating temporary file "C:\DOCUME~1\已\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Corr.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Projects\Calibrator\Corr\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\已\LOCALS~1\Temp\RSP53.tmp"" 
+Creating temporary file "C:\DOCUME~1\已\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+Lib/png.lib Lib/jpeg.lib Lib/zlib.lib Lib/tiff.lib Lib/j2k.lib Lib/jbig.lib Lib/jasper.lib Lib/cximage.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Corr.pdb" /debug /machine:I386 /out:"Debug/Corr.exe" /pdbtype:sept 
+.\Debug\ChildView.obj
+.\Debug\Corr.obj
+.\Debug\MainFrm.obj
+.\Debug\Picture.obj
+.\Debug\StdAfx.obj
+.\Debug\Corr.res
+]
+Creating command line "link.exe @"C:\DOCUME~1\已\LOCALS~1\Temp\RSP54.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+Corr.cpp
+MainFrm.cpp
+Picture.cpp
+Generating Code...
+Linking...
+   Creating library Debug/Corr.lib and object Debug/Corr.exp
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Corr.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,27 @@
+// CalPoint.cpp: implementation of the CCalPoint class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Calibrator.h"
+#include "CalPoint.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CCalPoint::CCalPoint()
+{
+
+}
+
+CCalPoint::~CCalPoint()
+{
+
+}

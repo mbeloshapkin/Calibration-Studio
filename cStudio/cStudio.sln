@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cStudio", "cStudio.csproj", "{6730F4DF-6D84-450A-9B99-E2E25557D03B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E85044AB-6DB1-4640-AAEF-21E1A25CEE0F}"
+	ProjectSection(SolutionItems) = preProject
+		Project.xml = Project.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Dbg DEMO|Any CPU = Dbg DEMO|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release DEMO|Any CPU = Release DEMO|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Dbg DEMO|Any CPU.ActiveCfg = Dbg DEMO|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Dbg DEMO|Any CPU.Build.0 = Dbg DEMO|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Release DEMO|Any CPU.ActiveCfg = Release DEMO|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Release DEMO|Any CPU.Build.0 = Release DEMO|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6730F4DF-6D84-450A-9B99-E2E25557D03B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

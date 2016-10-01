@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="cStudio">
+</Property><Property Name="Solution File" Value="C:\Projects\metric\CalibrationStudio\cStudio\cStudio.sln">
+</Property><Property Name="User Options File" Value="C:\Projects\metric\CalibrationStudio\cStudio\cStudio.suo">
+</Property><Property Name="Date" Value="4 апреля 2009 г.">
+</Property><Property Name="Time" Value="11:12">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="cStudio.sln" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.sln">
+</Event><Event ErrorLevel="0" Project="" Source="cStudio.suo" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.suo">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.csproj" Description="Project file successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.csproj">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Camera.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Camera.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="CImage.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\CImage.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="CPLCalibrationImage.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\CPLCalibrationImage.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="EH.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\EH.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmCamera.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmCamera.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmCamera.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmCamera.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImage.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImage.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImage.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImage.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImgProps.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImgProps.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImgProps.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImgProps.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Lens.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Lens.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="PLCData.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\PLCData.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="PlumbLine.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\PlumbLine.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Program.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Project.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Project.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Pt.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Pt.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Rational.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Rational.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Transform.cs" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Transform.cs">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="app.config" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.resx" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\cStudio.resx">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmCamera.resx" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmCamera.resx">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImage.resx" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImage.resx">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="frmImgProps.resx" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\frmImgProps.resx">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Projects\metric\CalibrationStudio\cStudio\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="cStudio" Source="cStudio.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="cStudio.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="cStudio.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="cStudio" Source="cStudio.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
